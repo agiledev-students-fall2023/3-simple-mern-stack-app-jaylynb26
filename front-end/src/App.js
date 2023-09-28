@@ -18,7 +18,7 @@ const App = props => {
             <Route path="/" element={<Home />} />
 
             {/* a route for the about page */}
-            <Route path="/" element={<AboutUs />} />
+            <Route path="/aboutus" element={<AboutUs />} />
 
             {/* a route to see a list of all messages */}
             <Route path="/messages" element={<Messages />} />
